@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#gameCanvas {
+  border: 1px solid black;
+  margin: 0 auto;
+  display: block;
+  background-image: url('Images/field-background.jpg');
+  background-size: 100% 100%;
+}
+
+body {
+  background-image: url("../Images/background.jpg");
+  background-repeat: repeat;
+}
