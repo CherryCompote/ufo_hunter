@@ -35,6 +35,8 @@ class GameOverPosition {
             play.level = 1;
             play.score = 0;
             play.shields = 2;
+            play.setting.bulletSpeed = 130 ;
+            play.setting.bombSpeed = 75 ;
             play.goToPosition(new TransferPosition(play.level));
         }
       }
